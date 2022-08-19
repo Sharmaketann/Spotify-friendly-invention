@@ -4,7 +4,7 @@ const app = express()
 
 app.get('/', (req, res) => {
   const person = {
-    name: 'Ketan',
+    name: 'Sachin',
     isAwesome: true,
   }
   res.json(person)
